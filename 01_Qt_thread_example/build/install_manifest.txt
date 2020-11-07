@@ -1,1 +1,0 @@
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/bin/Release/thread_example.exe

@@ -1,8 +1,0 @@
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/thread_example.dir
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/install/local.dir
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/install.dir
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/edit_cache.dir
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/rebuild_cache.dir
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/list_install_components.dir
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/install/strip.dir
-D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/thread_example_autogen.dir
