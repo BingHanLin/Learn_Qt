@@ -18,6 +18,11 @@
 			"D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerObject.hpp",
 			"MU",
 			"UVLADIE3JM/moc_workerObject.cpp"
+		],
+		[
+			"D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.hpp",
+			"MU",
+			"UVLADIE3JM/moc_workerQThread.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -81,6 +86,10 @@
 		],
 		[
 			"D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerObject.cpp",
+			"MU"
+		],
+		[
+			"D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.cpp",
 			"MU"
 		]
 	],

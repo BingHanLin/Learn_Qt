@@ -1,5 +1,5 @@
 #include <QMutex>
-#include <QObject>
+#include <QThread>
 
 class workerQThread : public QThread
 {
@@ -14,7 +14,7 @@ class workerQThread : public QThread
     bool isStopped_;
 
    signals:
-    void updateThreadProgress(const int i);
+    void resultUpdated(const int i);
 };
 
 // void MyObject::startWorkInAThread()

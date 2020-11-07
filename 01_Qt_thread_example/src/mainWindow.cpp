@@ -1,7 +1,8 @@
 #include "mainWindow.h"
 #include "./ui_mainWindow.h"
-// #include "workderQThread.hpp"
 #include "workerObject.hpp"
+#include "workerQThread.hpp"
+
 
 #include <QPushButton>
 
@@ -12,18 +13,29 @@ mainWindow::mainWindow(QWidget *parent)
     ui->threadProgress->setAlignment(Qt::AlignCenter);
     // ui->threadProgress->setFormat(QString("working on thread %p"));
 
-    worker_ = new workerObject;
-    worker_->moveToThread(&workerThread_);
-    connect(&workerThread_, &QThread::finished, worker_, &QObject::deleteLater);
-    connect(worker_, &workerObject::resultUpdated, this,
+    workerObject_ = new workerObject;
+    workerObject_->moveToThread(&workerThread_);
+    connect(&workerThread_, &QThread::finished, workerObject_,
+            &QObject::deleteLater);
+    connect(workerObject_, &workerObject::resultUpdated, this,
             &mainWindow::updateThreadProgress);
+    connect(workerObject_, &workerObject::message, this,
+            &mainWindow::receiveMessage);
     workerThread_.start();
 
-    connect(ui->startBtn, &QPushButton::clicked, worker_,
+    connect(ui->startBtn, &QPushButton::clicked, workerObject_,
             &workerObject::runSomeBigWork);
 
     connect(ui->stopBtn, &QPushButton::clicked, this,
-            [=]() { worker_->stop(); });
+            [=]() { workerObject_->stop(); });
+
+    // workerQThread *workerQThread_ = new workerQThread(this);
+    // connect(workerQThread_, &WorkerThread::finished, workerQThread_,
+    //         &QObject::deleteLater);
+    // connect(workerQThread_, &workerQThread::resultUpdated, this,
+    //         &mainWindow::updateThreadProgress);
+
+    // workerQThread_->start();
 }
 
 mainWindow::~mainWindow()
@@ -36,4 +48,9 @@ mainWindow::~mainWindow()
 void mainWindow::updateThreadProgress(const int i)
 {
     ui->threadProgress->setValue(i);
+}
+
+void mainWindow::receiveMessage(const QString &msg)
+{
+    ui->textBrowser->append(msg);
 }

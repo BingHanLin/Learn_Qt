@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/thread_example.dir/src/main.cpp.obj"
   "CMakeFiles/thread_example.dir/src/mainWindow.cpp.obj"
   "CMakeFiles/thread_example.dir/src/workerObject.cpp.obj"
+  "CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj"
   "CMakeFiles/thread_example.dir/thread_example_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/thread_example_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/thread_example_autogen.dir/ParseCache.txt"

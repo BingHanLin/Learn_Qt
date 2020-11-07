@@ -1192,6 +1192,10 @@ D:/Qt/5.14.2/mingw73_64/include/QtWidgets/QPushButton
 qpushbutton.h
 D:/Qt/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h
 
+D:/Qt/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem
+qlayoutitem.h
+D:/Qt/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h
+
 D:/Qt/5.14.2/mingw73_64/include/QtWidgets/QStatusBar
 qstatusbar.h
 D:/Qt/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h
@@ -1458,6 +1462,44 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/UVLADIE3JM/moc_mainWindow.cpp
+memory
+-
+../../../src/mainWindow.h
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/mainWindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/UVLADIE3JM/moc_workerObject.cpp
+memory
+-
+../../../src/workerObject.hpp
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerObject.hpp
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/UVLADIE3JM/moc_workerQThread.cpp
+memory
+-
+../../../src/workerQThread.hpp
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.hpp
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/mocs_compilation.cpp
+UVLADIE3JM/moc_mainWindow.cpp
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/UVLADIE3JM/moc_mainWindow.cpp
+UVLADIE3JM/moc_workerObject.cpp
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/UVLADIE3JM/moc_workerObject.cpp
+UVLADIE3JM/moc_workerQThread.cpp
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/UVLADIE3JM/moc_workerQThread.cpp
+
 D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/mainWindow.cpp
 mainWindow.h
 D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/mainWindow.h
@@ -1465,6 +1507,8 @@ D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/mainWindow.h
 D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/ui_mainWindow.h
 workerObject.hpp
 D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerObject.hpp
+workerQThread.hpp
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.hpp
 QPushButton
 -
 
@@ -1478,6 +1522,20 @@ D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerObject.hpp
 QMutex
 -
 QObject
+-
+
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.cpp
+workerQThread.hpp
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.hpp
+QMutex
+-
+QObject
+-
+
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.hpp
+QMutex
+-
+QThread
 -
 
 thread_example_autogen/include/ui_mainWindow.h
@@ -1498,6 +1556,8 @@ QtWidgets/QMenuBar
 QtWidgets/QProgressBar
 -
 QtWidgets/QPushButton
+-
+QtWidgets/QSpacerItem
 -
 QtWidgets/QStatusBar
 -

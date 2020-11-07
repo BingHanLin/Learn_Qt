@@ -9,3 +9,6 @@ D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/mainWindow.cpp
  uic:./ui_mainWindow.h
 D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/worker.hpp
  mmc:Q_OBJECT
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.hpp
+ mmc:Q_OBJECT
+D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.cpp

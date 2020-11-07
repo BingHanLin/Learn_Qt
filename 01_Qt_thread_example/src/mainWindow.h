@@ -12,7 +12,7 @@ class mainWindow;
 QT_END_NAMESPACE
 
 class workerObject;
-// class workderQThread;
+class workerQThread;
 class mainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -21,10 +21,13 @@ class mainWindow : public QMainWindow
     mainWindow(QWidget *parent = nullptr);
     ~mainWindow();
 
+   public slots:
+    void receiveMessage(const QString &msg);
+
    private:
     Ui::mainWindow *ui;
     QThread workerThread_;
-    workerObject *worker_;
+    workerObject *workerObject_;
 
    private slots:
     void updateThreadProgress(const int i);

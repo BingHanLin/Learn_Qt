@@ -13,4 +13,5 @@ class workerObject : public QObject
     bool isStopped_;
    signals:
     void resultUpdated(int i);
+    void message(const QString& jmsg);
 };

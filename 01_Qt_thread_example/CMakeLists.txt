@@ -24,8 +24,8 @@ add_executable(${CMAKE_PROJECT_NAME}
     src/mainWindow.ui
     src/workerObject.cpp
     src/workerObject.hpp
-    src/workderQThread.hpp
-    src/workderQThread.hpp
+    src/workerQThread.cpp
+    src/workerQThread.hpp
 )
 
 target_include_directories(
@@ -39,6 +39,14 @@ target_link_libraries(
     PRIVATE
       Qt5::Widgets 
 )
+
+target_compile_options(
+  ${CMAKE_PROJECT_NAME}
+    PRIVATE
+      -fpermissive
+)
+
+
 
 # execute windeployqt.exe
 if(WIN32)

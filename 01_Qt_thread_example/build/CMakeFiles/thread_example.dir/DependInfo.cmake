@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/main.cpp" "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/thread_example.dir/src/main.cpp.obj"
   "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/mainWindow.cpp" "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/thread_example.dir/src/mainWindow.cpp.obj"
   "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerObject.cpp" "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/thread_example.dir/src/workerObject.cpp.obj"
+  "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/src/workerQThread.cpp" "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj"
   "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/thread_example_autogen/mocs_compilation.cpp" "D:/_binghan_github/Learn_Qt/01_Qt_thread_example/build/CMakeFiles/thread_example.dir/thread_example_autogen/mocs_compilation.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

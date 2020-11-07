@@ -131,12 +131,27 @@ CMakeFiles/thread_example.dir/src/workerObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thread_example.dir/src/workerObject.cpp.s"
 	D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\_binghan_github\Learn_Qt\01_Qt_thread_example\src\workerObject.cpp -o CMakeFiles\thread_example.dir\src\workerObject.cpp.s
 
+CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj: CMakeFiles/thread_example.dir/flags.make
+CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj: CMakeFiles/thread_example.dir/includes_CXX.rsp
+CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj: ../src/workerQThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\_binghan_github\Learn_Qt\01_Qt_thread_example\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj"
+	D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\thread_example.dir\src\workerQThread.cpp.obj -c D:\_binghan_github\Learn_Qt\01_Qt_thread_example\src\workerQThread.cpp
+
+CMakeFiles/thread_example.dir/src/workerQThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thread_example.dir/src/workerQThread.cpp.i"
+	D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\_binghan_github\Learn_Qt\01_Qt_thread_example\src\workerQThread.cpp > CMakeFiles\thread_example.dir\src\workerQThread.cpp.i
+
+CMakeFiles/thread_example.dir/src/workerQThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thread_example.dir/src/workerQThread.cpp.s"
+	D:\msys2\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\_binghan_github\Learn_Qt\01_Qt_thread_example\src\workerQThread.cpp -o CMakeFiles\thread_example.dir\src\workerQThread.cpp.s
+
 # Object files for target thread_example
 thread_example_OBJECTS = \
 "CMakeFiles/thread_example.dir/thread_example_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/thread_example.dir/src/main.cpp.obj" \
 "CMakeFiles/thread_example.dir/src/mainWindow.cpp.obj" \
-"CMakeFiles/thread_example.dir/src/workerObject.cpp.obj"
+"CMakeFiles/thread_example.dir/src/workerObject.cpp.obj" \
+"CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj"
 
 # External object files for target thread_example
 thread_example_EXTERNAL_OBJECTS =
@@ -145,6 +160,7 @@ thread_example_EXTERNAL_OBJECTS =
 ../bin/thread_example.exe: CMakeFiles/thread_example.dir/src/main.cpp.obj
 ../bin/thread_example.exe: CMakeFiles/thread_example.dir/src/mainWindow.cpp.obj
 ../bin/thread_example.exe: CMakeFiles/thread_example.dir/src/workerObject.cpp.obj
+../bin/thread_example.exe: CMakeFiles/thread_example.dir/src/workerQThread.cpp.obj
 ../bin/thread_example.exe: CMakeFiles/thread_example.dir/build.make
 ../bin/thread_example.exe: D:/Qt/5.14.2/mingw73_64/lib/libQt5Widgets.a
 ../bin/thread_example.exe: D:/Qt/5.14.2/mingw73_64/lib/libQt5Gui.a
@@ -152,7 +168,7 @@ thread_example_EXTERNAL_OBJECTS =
 ../bin/thread_example.exe: CMakeFiles/thread_example.dir/linklibs.rsp
 ../bin/thread_example.exe: CMakeFiles/thread_example.dir/objects1.rsp
 ../bin/thread_example.exe: CMakeFiles/thread_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\_binghan_github\Learn_Qt\01_Qt_thread_example\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\bin\thread_example.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\_binghan_github\Learn_Qt\01_Qt_thread_example\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ..\bin\thread_example.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\thread_example.dir\link.txt --verbose=$(VERBOSE)
 	set PATH="D:/Qt/5.14.2/mingw73_64/bin"
 	D:\Qt\5.14.2\mingw73_64\bin\windeployqt.exe D:/_binghan_github/Learn_Qt/01_Qt_thread_example/bin/thread_example.exe
