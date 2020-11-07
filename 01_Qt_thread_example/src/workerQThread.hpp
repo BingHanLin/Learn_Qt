@@ -15,14 +15,5 @@ class workerQThread : public QThread
 
    signals:
     void resultUpdated(const int i);
+    void message(const QString& msg);
 };
-
-// void MyObject::startWorkInAThread()
-// {
-//     WorkerThread *workerThread = new WorkerThread(this);
-//     connect(workerThread, &WorkerThread::resultReady, this,
-//             &MyObject::handleResults);
-//     connect(workerThread, &WorkerThread::finished, workerThread,
-//             &QObject::deleteLater);
-//     workerThread->start();
-// }

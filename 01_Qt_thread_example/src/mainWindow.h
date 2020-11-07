@@ -12,7 +12,6 @@ class mainWindow;
 QT_END_NAMESPACE
 
 class workerObject;
-class workerQThread;
 class mainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -22,7 +21,6 @@ class mainWindow : public QMainWindow
     ~mainWindow();
 
    public slots:
-    void receiveMessage(const QString &msg);
 
    private:
     Ui::mainWindow *ui;
@@ -31,5 +29,7 @@ class mainWindow : public QMainWindow
 
    private slots:
     void updateThreadProgress(const int i);
+    void receiveMessage(const QString &msg);
+    void startWorkerQThread();
 };
 #endif  // MAINWINDOW_H

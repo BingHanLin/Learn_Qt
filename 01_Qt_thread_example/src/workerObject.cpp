@@ -31,7 +31,7 @@ void workerObject::runSomeBigWork()
                 .arg(reinterpret_cast<int>(QThread::currentThreadId()));
         emit message(msg);
 
-        QThread::msleep(500);
+        QThread::msleep(100);
         emit resultUpdated(i);
     }
 }

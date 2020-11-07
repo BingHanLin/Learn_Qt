@@ -29,14 +29,14 @@
          <number>20</number>
         </property>
         <item row="0" column="0">
-         <widget class="QPushButton" name="startBtn">
+         <widget class="QPushButton" name="startWorkerObjectBtn">
           <property name="text">
            <string>Start</string>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QPushButton" name="stopBtn">
+         <widget class="QPushButton" name="stopWorkerObjectBtn">
           <property name="text">
            <string>Stop</string>
           </property>
@@ -66,28 +66,28 @@
          <number>20</number>
         </property>
         <item row="3" column="0">
-         <widget class="QPushButton" name="stopBtn_4">
+         <widget class="QPushButton" name="stopWorkerObjectBtn_4">
           <property name="text">
            <string>Terminate</string>
           </property>
          </widget>
         </item>
         <item row="2" column="0">
-         <widget class="QPushButton" name="stopBtn_3">
+         <widget class="QPushButton" name="stopWorkerObjectBtn_3">
           <property name="text">
            <string>Quit</string>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QPushButton" name="stopBtn_2">
+         <widget class="QPushButton" name="stopWorkerQThreadBtn">
           <property name="text">
            <string>Stop</string>
           </property>
          </widget>
         </item>
         <item row="0" column="0">
-         <widget class="QPushButton" name="startBtn_2">
+         <widget class="QPushButton" name="startWorkerQThreadBtn">
           <property name="text">
            <string>Start</string>
           </property>
