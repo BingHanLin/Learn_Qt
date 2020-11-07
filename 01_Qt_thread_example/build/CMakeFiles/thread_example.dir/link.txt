@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\thread_example.dir/objects.a
+D:\msys2\mingw64\bin\ar.exe cr CMakeFiles\thread_example.dir/objects.a @CMakeFiles\thread_example.dir\objects1.rsp
+D:\msys2\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\thread_example.dir/objects.a -Wl,--no-whole-archive -o ..\bin\thread_example.exe -Wl,--out-implib,libthread_example.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\thread_example.dir\linklibs.rsp

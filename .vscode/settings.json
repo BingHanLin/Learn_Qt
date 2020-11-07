@@ -1,0 +1,16 @@
+{
+    "terminal.integrated.automationShell.windows": "",
+    "files.associations": {
+        "qtwidgets": "cpp",
+        "qtwidgetsdepends": "cpp",
+        "functional": "cpp",
+        "qapplication": "cpp",
+        "xiosbase": "cpp",
+        "qobject": "cpp",
+        "qthread": "cpp",
+        "qmutexlocker": "cpp",
+        "qpushbutton": "cpp",
+        "qmutex": "cpp"
+    },
+    "clang-format.executable": "D:\\LLVM\\bin\\clang-format.exe"
+}
