@@ -4,6 +4,7 @@
 class workerQThread : public QThread
 {
     Q_OBJECT
+   protected:
     void run() override;
 
    public slots:

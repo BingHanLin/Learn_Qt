@@ -51,7 +51,8 @@ void mainWindow::startWorkerQThread()
     connect(thread, &workerQThread::resultUpdated, this,
             &mainWindow::updateThreadProgress);
     connect(thread, &workerQThread::message, this, &mainWindow::receiveMessage);
-
+    connect(ui->stopWorkerQThreadBtn, &QPushButton::clicked, thread,
+            &workerQThread::stop);
     thread->start();
 }
 
